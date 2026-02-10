@@ -1,10 +1,6 @@
 import React from "react";
-//// aqui el import de navbar//
-/// aqui el jumbotrom////
-
-
-
-
+import NavbarComponent from "./NavbarComponents";
+import Jumbotron from "./Jumbotron";
 import Card from "./Card";
 import Footer from "./Footer";
 
@@ -43,20 +39,12 @@ const Home = () => {
 	];
 
 
-
-
 	return (
 		<div className="text-center">
-			{/* aqui va el navbar y el jumbotrom*/}
-
-
-
-
-
-
-
+			<NavbarComponent />
 
 			<div className="container mt-5">
+				<Jumbotron />
 				<div className="row">
 					{cardsDatos.map((card) => (
 						<Card
@@ -69,13 +57,10 @@ const Home = () => {
 				</div>
 			</div>
 			<Footer />
-
-
-
-
-
 		</div>
+
 	);
 };
 
 export default Home;
+

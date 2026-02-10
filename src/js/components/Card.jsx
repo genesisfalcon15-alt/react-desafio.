@@ -12,7 +12,7 @@ const Card = (props) => {
                     <p className="card-text">{description}</p>
                 </div>  {/*este div cierra h-100*/}
                 <div className="card-footer text-center bg-light border-top-0">
-                    <a href="#" className="btn btn-primary"> Find Out More! </a>
+                    <a href="#" className="btn btn-primary"> Find Out More!! </a>
                 </div>
             </div>
         </div>
